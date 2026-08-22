@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import HeroPage from './pages/HeroPage';
 
 import EventsPage from './pages/EventsPage';
@@ -42,7 +42,7 @@ const Navigation = () => {
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Navigation />
       <main style={{ minHeight: '100vh' }}>
         <Routes>
@@ -56,7 +56,7 @@ function App() {
           <Route path="/host" element={<HostDashboard />} />
         </Routes>
       </main>
-    </BrowserRouter>
+    </Router>
   );
 }
 
