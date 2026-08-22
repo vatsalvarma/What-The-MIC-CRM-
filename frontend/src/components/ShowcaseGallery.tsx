@@ -103,7 +103,7 @@ export const ShowcaseGallery = () => {
   const currentIndex = ((page % slides.length) + slides.length) % slides.length;
   const slide = slides[currentIndex];
 
-  const springConfig = { type: "spring", stiffness: 100, damping: 20 };
+  const springConfig = { type: "spring" as const, stiffness: 100, damping: 20 };
 
   return (
     <section ref={containerRef} style={{ height: '100vh', width: '100%', backgroundColor: '#0d0d10', position: 'relative', overflow: 'hidden' }}>

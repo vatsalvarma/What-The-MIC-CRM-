@@ -151,11 +151,10 @@ const StorySlide: React.FC<StorySlideProps> = ({ story, index, total, scrollYPro
       {/* Left Side: Image */}
       <div className="w-full md:w-1/2 h-1/2 md:h-full relative overflow-hidden bg-black">
         <motion.img 
-          style={{ scale: imageScale }} 
           src={story.image} 
           alt={story.name}
           className="absolute inset-0 w-full h-full object-cover" 
-          style={{ filter: 'brightness(0.6)' }}
+          style={{ scale: imageScale, filter: 'brightness(0.6)' }}
         />
         
         {/* Gradients for text readability */}
