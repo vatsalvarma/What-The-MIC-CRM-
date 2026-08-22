@@ -26,7 +26,7 @@ export default function Home() {
           style={{ y: bgY }}
         >
           <img 
-            src="/bg.png" 
+            src="./bg.png" 
             alt="Background" 
             className="w-full h-full object-cover"
           />
@@ -38,7 +38,7 @@ export default function Home() {
           style={{ y: manY }}
         >
           <img 
-            src="/man.png" 
+            src="./man.png" 
             alt="Man" 
             className="w-full h-full object-cover object-bottom"
           />
@@ -53,7 +53,7 @@ export default function Home() {
           transition={{ duration: 1.2, ease: "easeOut" }}
         >
           <img 
-            src="/logo.png" 
+            src="./logo.png" 
             alt="Logo" 
             className="w-full h-auto"
           />
@@ -66,7 +66,7 @@ export default function Home() {
           animate={{ x: '0%' }}
           transition={{ duration: 1, ease: "easeInOut", delay: 0.5 }}
           style={{
-            backgroundImage: "url('/baricade.png')",
+            backgroundImage: "url('./baricade.png')",
             backgroundSize: "200% 100%",
             backgroundPosition: "left center"
           }}
@@ -79,7 +79,7 @@ export default function Home() {
           animate={{ x: '0%' }}
           transition={{ duration: 1, ease: "easeInOut", delay: 0.5 }}
           style={{
-            backgroundImage: "url('/baricade.png')",
+            backgroundImage: "url('./baricade.png')",
             backgroundSize: "200% 100%",
             backgroundPosition: "right center"
           }}

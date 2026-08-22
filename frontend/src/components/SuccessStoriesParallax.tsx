@@ -7,7 +7,7 @@ const stories = [
     id: 1,
     name: "ELEVATE SOUNDS",
     subtitle: "ELECTRONIC DJ SET",
-    image: "/images/artist_electronic_dj_1787380354184.png",
+    image: "./images/artist_electronic_dj_1787380354184.png",
     description: "From bedroom producer to headlining the main stage. Experience the journey of Elevate Sounds as they completely revolutionized the electronic scene, blowing the crowd away with an unforgettable light show and heavy bass drops.",
     stats: { gigs: 45, fans: '120k', streams: '2.5M' },
     quote: "The city of freedom."
@@ -16,7 +16,7 @@ const stories = [
     id: 2,
     name: "LUNA SKYES",
     subtitle: "INDIE ROCK",
-    image: "/images/artist_indie_guitarist_1787380273295.png",
+    image: "./images/artist_indie_guitarist_1787380273295.png",
     description: "Luna brought her unique indie flair and captivating guitar riffs to the MIC stage, leaving the audience entirely spellbound. Her breakout performance led to a major record deal.",
     stats: { gigs: 82, fans: '45k', streams: '800k' },
     quote: "Every chord tells a story."
@@ -25,7 +25,7 @@ const stories = [
     id: 3,
     name: "THE VELVET TONE",
     subtitle: "JAZZ SINGER",
-    image: "/images/artist_jazz_singer_1787380235189.png",
+    image: "./images/artist_jazz_singer_1787380235189.png",
     description: "With a voice as smooth as velvet, he turned a standard venue into a 1920s speakeasy. A masterclass in atmosphere and raw vocal talent that had everyone on their feet.",
     stats: { gigs: 110, fans: '20k', streams: '1.1M' },
     quote: "A conversation without words."
@@ -34,7 +34,7 @@ const stories = [
     id: 4,
     name: "MARCUS 'LYRIC' COLE",
     subtitle: "SPOKEN WORD POET",
-    image: "/images/artist_spoken_word_1787380407971.png",
+    image: "./images/artist_spoken_word_1787380407971.png",
     description: "Powerful words, striking delivery. Marcus held the entire crowd in absolute silence as his words cut through the dark. A profoundly emotional performance.",
     stats: { gigs: 30, fans: '80k', streams: '500k' },
     quote: "Truth hits hardest out loud."
@@ -43,7 +43,7 @@ const stories = [
     id: 5,
     name: "DJ NEON",
     subtitle: "FESTIVAL CLOSER",
-    image: "/images/artist_electronic_dj_1787380354184.png",
+    image: "./images/artist_electronic_dj_1787380354184.png",
     description: "A monumental closer for the summer festival season. Lasers, heavy bass drops, and an unforgettable light show that set a new benchmark for live electronic acts.",
     stats: { gigs: 200, fans: '300k', streams: '5M' },
     quote: "We don't sleep, we dance."
@@ -52,7 +52,7 @@ const stories = [
     id: 6,
     name: "ECHO STRINGS",
     subtitle: "ALTERNATIVE INDIE",
-    image: "/images/artist_indie_guitarist_1787380273295.png",
+    image: "./images/artist_indie_guitarist_1787380273295.png",
     description: "Breaking boundaries with alternative tuning and heavy distortion pedals. A raw, authentic rock performance that brought the true spirit of indie back to the main stage.",
     stats: { gigs: 55, fans: '60k', streams: '1.2M' },
     quote: "Distortion is organized chaos."
@@ -61,7 +61,7 @@ const stories = [
     id: 7,
     name: "ARTHUR PENN",
     subtitle: "CLASSIC JAZZ",
-    image: "/images/artist_jazz_singer_1787380235189.png",
+    image: "./images/artist_jazz_singer_1787380235189.png",
     description: "Bringing the classics back to life. A sensational tribute to the golden era of jazz music on the main stage, capturing the essence of the greats.",
     stats: { gigs: 90, fans: '15k', streams: '400k' },
     quote: "The classics never truly die."
@@ -70,7 +70,7 @@ const stories = [
     id: 8,
     name: "SILENT ECHOES",
     subtitle: "POETRY SLAM CHAMPION",
-    image: "/images/artist_spoken_word_1787380407971.png",
+    image: "./images/artist_spoken_word_1787380407971.png",
     description: "Winner of the national poetry slam. A gripping, emotionally raw performance that left no dry eyes in the house, proving the power of spoken word.",
     stats: { gigs: 40, fans: '25k', streams: '100k' },
     quote: "Tears are unspoken words."
@@ -79,7 +79,7 @@ const stories = [
     id: 9,
     name: "CYBER PULSE",
     subtitle: "SYNTHWAVE PRODUCER",
-    image: "/images/artist_electronic_dj_1787380354184.png",
+    image: "./images/artist_electronic_dj_1787380354184.png",
     description: "Taking the audience back to the 80s future. A brilliant display of analog synthesizers and heavy rhythmic beats that kept the crowd jumping all night.",
     stats: { gigs: 60, fans: '90k', streams: '2M' },
     quote: "The future is retro."
@@ -88,7 +88,7 @@ const stories = [
     id: 10,
     name: "THE WILD ONES",
     subtitle: "GARAGE ROCK",
-    image: "/images/artist_indie_guitarist_1787380273295.png",
+    image: "./images/artist_indie_guitarist_1787380273295.png",
     description: "Unfiltered, unapologetic garage rock. They tore the roof off the venue with their high-octane set, bringing massive chaotic energy.",
     stats: { gigs: 150, fans: '110k', streams: '3M' },
     quote: "Play it loud or not at all."

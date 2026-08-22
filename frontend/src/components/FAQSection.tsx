@@ -151,7 +151,7 @@ export const FAQSection = () => {
               style={{ width: '100%', height: '100%' }}
             >
               <motion.img 
-                src="/ev.png"
+                src="./ev.png"
                 alt="MIC Event"
                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
               />

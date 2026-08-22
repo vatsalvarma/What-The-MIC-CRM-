@@ -153,7 +153,7 @@ const HeroPage: React.FC = () => {
           style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 0, y: bgY, willChange: 'transform' }}
         >
           <img 
-            src="/bg.png" 
+            src="./bg.png" 
             alt="Background" 
             style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'bottom center', transform: 'scale(1.2)' }}
           />
@@ -171,7 +171,7 @@ const HeroPage: React.FC = () => {
             style={{ display: 'flex', justifyContent: 'center', width: '100%' }}
           >
             <img 
-              src="/logo.png" 
+              src="./logo.png" 
               alt="Logo" 
               
               style={{ width: '85%', maxWidth: '500px', height: 'auto', }}
@@ -184,7 +184,7 @@ const HeroPage: React.FC = () => {
           style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 20, display: 'flex', alignItems: 'flex-end', justifyContent: 'center', y: manY, willChange: 'transform' }}
         >
           <img 
-            src="/man.png" 
+            src="./man.png" 
             alt="Man" 
             style={{ width: 'auto', height: '45%', objectFit: 'contain', objectPosition: 'bottom' , marginBottom: '30px'}}
           />
@@ -200,7 +200,7 @@ const HeroPage: React.FC = () => {
               transition={{ duration: 1, ease: "easeInOut", delay: 0.5 }}
               style={{
                 width: '100%', height: '100%',
-                backgroundImage: "url('/baricade.png')",
+                backgroundImage: "url('./baricade.png')",
                 backgroundSize: "200% 100%",
                 backgroundPosition: "left bottom",
                 transformOrigin: "bottom left"
@@ -219,7 +219,7 @@ const HeroPage: React.FC = () => {
               transition={{ duration: 1, ease: "easeInOut", delay: 0.5 }}
               style={{
                 width: '100%', height: '100%',
-                backgroundImage: "url('/baricade.png')",
+                backgroundImage: "url('./baricade.png')",
                 backgroundSize: "200% 100%",
                 backgroundPosition: "right bottom",
                 transformOrigin: "bottom right"
@@ -342,7 +342,7 @@ const HeroPage: React.FC = () => {
           {/* SET 1 */}
           <motion.div style={{ position: 'absolute', inset: 0, zIndex: 10, display: display1 }}>
             {/* Background */}
-            <motion.img src="/bg3.1.png" style={{ position: 'absolute', width: '120%', height: '100%', objectFit: 'cover', x: bgX1, opacity: opacity1, willChange: 'transform' }} />
+            <motion.img src="./bg3.1.png" style={{ position: 'absolute', width: '120%', height: '100%', objectFit: 'cover', x: bgX1, opacity: opacity1, willChange: 'transform' }} />
             
             {/* Top Left Animated Text */}
             <motion.div style={{ display: isMobile ? 'none' : 'block', position: 'absolute', top: '10%', left: '5%', zIndex: 20, maxWidth: '250px', x: topLeftX1, opacity: opacity1, willChange: 'transform' }}>
@@ -362,7 +362,7 @@ const HeroPage: React.FC = () => {
             </motion.div>
             {/* PNG Foreground */}
             <motion.div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'flex-end', justifyContent: 'center', paddingBottom: isMobile ? '45%' : '10%', x: pngX1, opacity: opacity1, willChange: 'transform', zIndex: 10 }}>
-              <img src="/mic3.png" style={{ height: isMobile ? '20%' : '35%', objectFit: 'contain' }} />
+              <img src="./mic3.png" style={{ height: isMobile ? '20%' : '35%', objectFit: 'contain' }} />
             </motion.div>
             {/* Bottom Right Glass Card */}
             <motion.div style={{ position: 'absolute', bottom: '5%', right: '5%', zIndex: 20, maxWidth: '300px', padding: '20px', background: 'rgba(0, 0, 0, 0.4)', backdropFilter: 'blur(15px)', WebkitBackdropFilter: 'blur(15px)', border: '1px solid rgba(255,255,255,0.2)', borderRadius: '16px', x: cardX1, opacity: opacity1, willChange: 'transform' }}>
@@ -372,7 +372,7 @@ const HeroPage: React.FC = () => {
 
           {/* SET 2 */}
           <motion.div style={{ position: 'absolute', inset: 0, zIndex: 20, display: display2 }}>
-            <motion.img src="/bg3.3.png" style={{ position: 'absolute', width: '120%', height: '100%', objectFit: 'cover', x: bgX2, opacity: opacity2, willChange: 'transform' }} />
+            <motion.img src="./bg3.3.png" style={{ position: 'absolute', width: '120%', height: '100%', objectFit: 'cover', x: bgX2, opacity: opacity2, willChange: 'transform' }} />
             
             {/* Top Left Animated Text */}
             <motion.div style={{ position: 'absolute', top: '10%', left: '5%', zIndex: 20, maxWidth: '250px', x: topLeftX2, opacity: opacity2, willChange: 'transform' }}>
@@ -383,7 +383,7 @@ const HeroPage: React.FC = () => {
               <h1 style={{ fontSize: '15vw', fontWeight: 900, color: 'rgba(255,255,255,0.15)', textTransform: 'uppercase', whiteSpace: 'nowrap', fontFamily: '"Outfit", sans-serif', letterSpacing: '10px' }}>INFO</h1>
             </motion.div>
             <motion.div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', x: pngX2, opacity: opacity2, willChange: 'transform', zIndex: 10 }}>
-              <img src="/man3.png" style={{ height: '65%', objectFit: 'contain' }} />
+              <img src="./man3.png" style={{ height: '65%', objectFit: 'contain' }} />
             </motion.div>
             <motion.div style={{ position: 'absolute', bottom: '5%', right: '5%', zIndex: 20, maxWidth: '300px', padding: '20px', background: 'rgba(0, 0, 0, 0.4)', backdropFilter: 'blur(15px)', WebkitBackdropFilter: 'blur(15px)', border: '1px solid rgba(255,255,255,0.2)', borderRadius: '16px', x: cardX2, opacity: opacity2, willChange: 'transform' }}>
               <p style={{ color: '#fff', fontSize: '0.85rem', fontWeight: 600, lineHeight: '1.6', fontFamily: '"Inter", sans-serif' }}>Your instgram hadel and watsapp number is mandatory to saty in touch and age shuld be 21+.</p>
@@ -392,7 +392,7 @@ const HeroPage: React.FC = () => {
 
           {/* SET 3 */}
           <motion.div style={{ position: 'absolute', inset: 0, zIndex: 30, display: display3 }}>
-            <motion.img src="/bg3.4.png" style={{ position: 'absolute', width: '120%', height: '100%', objectFit: 'cover', x: bgX3, opacity: opacity3, willChange: 'transform' }} />
+            <motion.img src="./bg3.4.png" style={{ position: 'absolute', width: '120%', height: '100%', objectFit: 'cover', x: bgX3, opacity: opacity3, willChange: 'transform' }} />
 
             {/* Top Left Animated Text */}
             <motion.div style={{ position: 'absolute', top: '10%', left: '5%', zIndex: 20, maxWidth: '250px', x: topLeftX3, opacity: opacity3, willChange: 'transform' }}>
@@ -403,7 +403,7 @@ const HeroPage: React.FC = () => {
               <h1 style={{ fontSize: '15vw', fontWeight: 900, color: 'rgba(255,255,255,0.15)', textTransform: 'uppercase', whiteSpace: 'nowrap', fontFamily: '"Outfit", sans-serif', letterSpacing: '10px' }}>TRACK</h1>
             </motion.div>
             <motion.div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', x: pngX3, rotateY: pngRotateY3, opacity: opacity3, willChange: 'transform', zIndex: 10, perspective: '1000px' }}>
-              <img src="/cst3.png" style={{ height: isMobile ? '40%' : '65%', objectFit: 'contain' }} />
+              <img src="./cst3.png" style={{ height: isMobile ? '40%' : '65%', objectFit: 'contain' }} />
             </motion.div>
             <motion.div style={{ position: 'absolute', bottom: '5%', right: '5%', zIndex: 20, maxWidth: '300px', padding: '20px', background: 'rgba(0, 0, 0, 0.4)', backdropFilter: 'blur(15px)', WebkitBackdropFilter: 'blur(15px)', border: '1px solid rgba(255,255,255,0.2)', borderRadius: '16px', x: cardX3, opacity: opacity3, willChange: 'transform' }}>
               <p style={{ color: '#fff', fontSize: '0.85rem', fontWeight: 600, lineHeight: '1.6', fontFamily: '"Inter", sans-serif' }}>you will recive the 2nd link on the watsapp on that form u have to upload the track.</p>
@@ -412,7 +412,7 @@ const HeroPage: React.FC = () => {
 
           {/* SET 4 */}
           <motion.div style={{ position: 'absolute', inset: 0, zIndex: 40, display: display4 }}>
-            <motion.img src="/bg3.5.png" style={{ position: 'absolute', width: '120%', height: '100%', objectFit: 'cover', x: bgX4, opacity: opacity4, willChange: 'transform' }} />
+            <motion.img src="./bg3.5.png" style={{ position: 'absolute', width: '120%', height: '100%', objectFit: 'cover', x: bgX4, opacity: opacity4, willChange: 'transform' }} />
 
             {/* Top Left Animated Text */}
             <motion.div style={{ position: 'absolute', top: '10%', left: '5%', zIndex: 20, maxWidth: '250px', x: topLeftX4, opacity: opacity4, willChange: 'transform' }}>
@@ -470,7 +470,7 @@ const HeroPage: React.FC = () => {
               <h1 style={{ fontSize: '15vw', fontWeight: 900, color: 'rgba(255,255,255,0.15)', textTransform: 'uppercase', whiteSpace: 'nowrap', fontFamily: '"Outfit", sans-serif', letterSpacing: '10px' }}>PERFORM</h1>
             </motion.div>
             <motion.div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'flex-end', justifyContent: 'center', paddingBottom: '0%', x: pngX4, opacity: opacity4, willChange: 'transform', zIndex: 10 }}>
-              <img src="/mn3.png" style={{ height: '65%', objectFit: 'contain' }} />
+              <img src="./mn3.png" style={{ height: '65%', objectFit: 'contain' }} />
             </motion.div>
             <motion.div style={{ position: 'absolute', bottom: '5%', right: '5%', zIndex: 20, maxWidth: '300px', padding: '20px', background: 'rgba(0, 0, 0, 0.4)', backdropFilter: 'blur(15px)', WebkitBackdropFilter: 'blur(15px)', border: '1px solid rgba(255,255,255,0.2)', borderRadius: '16px', x: cardX4, opacity: opacity4, willChange: 'transform' }}>
               <p style={{ color: '#fff', fontSize: '0.85rem', fontWeight: 600, lineHeight: '1.6', fontFamily: '"Inter", sans-serif' }}>Take the stage and captivate your audience. We provide the platform, you provide the talent.</p>
