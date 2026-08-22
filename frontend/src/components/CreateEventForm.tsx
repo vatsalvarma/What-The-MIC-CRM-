@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Camera, Image as ImageIcon, ChevronDown, Plus, Trash2, Calendar as CalendarIcon, MapPin, Search, Paperclip, Video, Ticket } from 'lucide-react';
 
-const API_URL = import.meta.env.VITE_API_URL || `${API_URL}`;
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080';
 
 const UploadBox = ({ title, desc, height = '120px', icon: Icon = null, dark = false, onChange, bgImage }: any) => (
   <label style={{

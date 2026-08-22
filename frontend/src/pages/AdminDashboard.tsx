@@ -11,7 +11,7 @@ import OverviewDashboard from '../components/OverviewDashboard';
 import CreateEventForm from '../components/CreateEventForm';
 import TicketTemplate from '../components/TicketTemplate';
 
-const API_URL = import.meta.env.VITE_API_URL || `${API_URL}`;
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080';
 
 // ==========================================
 // SUBCOMPONENTS

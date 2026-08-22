@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { GripVertical, X, CheckCircle, Smartphone, MapPin, AudioLines, RefreshCw, LogIn, Download } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const API_URL = import.meta.env.VITE_API_URL || `${API_URL}`;
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080';
 
 const HostDashboard: React.FC = () => {
   const [token, setToken] = useState(localStorage.getItem('host_token') || '');

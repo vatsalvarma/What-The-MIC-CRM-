@@ -4,7 +4,7 @@ import axios from 'axios';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Check } from 'lucide-react';
 
-const API_URL = import.meta.env.VITE_API_URL || `${API_URL}`;
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080';
 
 const Input = ({ label, required, placeholder, value, onChange, type = 'text', error }: any) => (
   <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', width: '100%', marginBottom: '1.5rem' }}>

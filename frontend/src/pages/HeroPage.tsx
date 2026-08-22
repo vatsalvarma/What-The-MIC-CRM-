@@ -7,7 +7,7 @@ import EcosystemSection from '../components/EcosystemSection';
 import { FAQSection } from '../components/FAQSection';
 import { ShowcaseGallery } from '../components/ShowcaseGallery';
 
-const API_URL = import.meta.env.VITE_API_URL || `${API_URL}`;
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080';
 
 const HeroPage: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);

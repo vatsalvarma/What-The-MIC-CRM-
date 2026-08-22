@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronRight, ChevronDown, DollarSign, Users, Ticket, TrendingUp } from 'lucide-react';
 
-const API_URL = import.meta.env.VITE_API_URL || `${API_URL}`;
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080';
 
 const Card = ({ children, style = {}, delay = 0 }: any) => (
   <motion.div 
